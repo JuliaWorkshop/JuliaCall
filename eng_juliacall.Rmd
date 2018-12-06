@@ -1,0 +1,20 @@
+eng_juliacall Julia language engine in R Markdown
+
+#### Description
+
+Julia language engine in R Markdown
+
+#### Usage
+<pre><code>
+
+eng_juliacall(options)
+
+</code></pre>
+#### Arguments
+
+options a list of chunk options
+
+#### Examples
+```{r}
+
+knitr::knit_engines$set(julia = JuliaCall::eng_juliacall)
