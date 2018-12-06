@@ -1,0 +1,37 @@
+
+julia_setup Do initial setup for the JuliaCall package.
+
+#### Description
+
+julia_setup does the initial setup for the JuliaCall package.
+
+#### Usage
+<pre><code>
+
+julia_setup(JULIA_HOME = NULL, verbose = TRUE, install = TRUE,
+force = FALSE, useRCall = TRUE)
+
+</code></pre>
+#### Arguments
+
+JULIA_HOME the file folder which contains julia binary, if not set, JuliaCall will look at the
+global option JULIA_HOME, if the global option is not set, JuliaCall will then
+look at the environmental variable JULIA_HOME, if still not found, JuliaCall
+will try to use the julia in path.
+verbose whether to print out detailed information about julia_setup.
+install whether to execute install script for dependent julia packages, whose default
+value is TRUE; but can be set to FALSE to save startup time when no installation
+of dependent julia packages is needed.
+force whether to force julia_setup to execute again.
+useRCall whether or not you want to use RCall.jl in julia, which is an amazing package to
+access R in julia.
+Value
+The julia interface, which is an environment with the necessary methods like command, source and
+things like that to communicate with julia.
+
+#### Examples
+```{r}
+
+## julia_setup is quite time consuming
+julia <- julia_setup()
+12 %>J%
