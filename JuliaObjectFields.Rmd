@@ -1,0 +1,25 @@
+JuliaObjectFields JuliaObject Fields.
+
+#### Description
+
+Get the field names, get or set certain fields of an JuliaObject.
+
+#### Usage
+<pre><code>
+
+fields(object)
+## S3 method for class 'JuliaObject'
+fields(object)
+field(object, name)
+## S3 method for class 'JuliaObject'
+field(object, name)
+field(object, name) <- value
+## S3 replacement method for class 'JuliaObject'
+field(object, name) <- value
+
+</code></pre>
+#### Arguments
+
+object the JuliaObject.
+name a character string specifying the fields to be accessed or set.
+value the new value of the field of the JuliaObject.
