@@ -1,0 +1,17 @@
+julia_console Open julia console.
+
+#### Description
+
+Open julia console.
+
+#### Usage
+<pre><code>
+
+julia_console()
+
+#### Examples
+```{r}
+
+## Not run: ## julia_setup is quite time consuming
+julia_console()
+## End(Not run)
