@@ -1,0 +1,11 @@
+
+plotsViewer Julia plots viewer in R.
+
+#### Description
+
+plotsViewer lets you view julia plots in R.
+
+#### Usage
+<pre><code>
+
+plotsViewer()
