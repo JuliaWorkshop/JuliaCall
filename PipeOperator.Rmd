@@ -1,0 +1,24 @@
+%>J% Language piper for julia language.
+
+#### Description
+
+The experimental language piper for julia language.
+
+#### Usage
+<pre><code>
+
+obj %>J% func_call
+
+</code></pre>
+#### Arguments
+
+obj the object to pass to the piper.
+func_call the impartial julia function call.
+%>J% 13
+
+#### Examples
+```{r}
+
+## julia_setup is quite time consuming
+2 %>J% sqrt
+3 %>J% log(2)
