@@ -1,0 +1,37 @@
+call 3
+call Call julia functions.
+
+#### Description
+
+julia_do.call is the do.call for julia. And julia_call calls julia functions.
+
+#### Usage
+<pre><code>
+
+julia_do.call(func_name, arg_list, need_return = c("R", "Julia", "None"),
+show_value = FALSE)
+julia_call(func_name, ..., need_return = c("R", "Julia", "None"),
+show_value = FALSE)
+
+</code></pre>
+#### Arguments
+
+func_name the name of julia function you want to call.
+arg_list the list of the arguments you want to pass to the julia function.
+need_return whether you want julia to return value as an R object, a wrapper for julia object
+or no return. The value of need_return could be TRUE (equal to option "R") or
+FALSE (equal to option "None"), or one of the options "R", "Julia" and "None".
+show_value whether to display julia return value or not.
+... the arguments
+ you want to pass to the julia function.
+Details
+Note that named arguments
+ will be discarded if the call uses dot notation, for example, "sqrt.".
+
+#### Examples
+```{r}
+
+## julia_setup is quite time consuming
+julia_do.call("sqrt", list(2))
+julia_call("sqrt", 2)
+4 JuliaCall
