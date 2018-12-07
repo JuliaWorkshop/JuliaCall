@@ -12,7 +12,6 @@ autowrap(type, fields = NULL, methods = c())
 </code></pre>
 #### Arguments
 
-type the julia type to wrap.
-fields names of fields to be included in the wrapper. If the value is NULL, then every
-julia fields will be included in the wrapper.
-methods names of methods to be overloaded for the wrapper.
+* type the julia type to wrap.
+* fields names of fields to be included in the wrapper. If the value is NULL, then every julia fields will be included in the wrapper.
+* methods names of methods to be overloaded for the wrapper.
