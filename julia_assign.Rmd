@@ -1,5 +1,5 @@
 
-julia_assign Assign a value to a name in julia.
+``julia_assign`` Assign a value to a name in julia.
 
 #### Description
 
@@ -11,11 +11,10 @@ julia_assign assigns a value to a name in julia with automatic type conversion.
 julia_assign(x, value)
 
 </code></pre>
-#### Arguments
 
-x a variable name, given as a character string.
-value a value to be assigned to x, note that R value will be converted to corresponding
-julia value automatically.
+#### Arguments
+* ``x``: a variable name, given as a character string.
+* ``value``: a value to be assigned to x, note that R value will be converted to corresponding julia value automatically.
 
 #### Examples
 ```{r}
@@ -24,3 +23,4 @@ julia value automatically.
 julia_assign("x", 2)
 julia_assign("rsqrt", sqrt)
 
+```
