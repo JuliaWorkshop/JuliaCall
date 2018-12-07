@@ -1,22 +1,21 @@
-julia_help Get help for a julia function.
+``julia_help`` Get help for a julia function.
 
 #### Description
 
-julia_help outputs the documentation of a julia function.
+``julia_help`` outputs the documentation of a julia function.
 
 #### Usage
 <pre><code>
-
 julia_help(fname)
-10 julia_package
-
 </code></pre>
+
 #### Arguments
 
-fname the name of julia function you want to get help with.
+*  ``fname`` the name of julia function you want to get help with.
 
 #### Examples
 ```{r}
 
 ## julia_setup is quite time consuming
 julia_help("sqrt")
+```
