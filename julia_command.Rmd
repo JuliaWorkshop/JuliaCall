@@ -1,9 +1,7 @@
-julia_command Evaluate string commands in julia.
+``julia_command`` Evaluate string commands in julia.
 
 #### Description
-
-julia_command evaluates string commands in julia without returning the result. If you need the
-result, maybe you could try julia_eval.
+``julia_command`` evaluates string commands in julia without returning the result. If you need the result, maybe you could try julia_eval.
 
 #### Usage
 <pre><code>
@@ -12,14 +10,10 @@ julia_command(cmd, show_value = !endsWith(cmd, ";"))
 
 </code></pre>
 #### Arguments
-
-cmd the command string you want to evaluate in julia.
-show_value whether to display julia return value or not, the default value is ‘FALSE‘ if the
-‘cmd‘ ends with semicolon and ‘TRUE‘ otherwise.
-8 julia_eval
-
+* ``cmd`` the command string you want to evaluate in julia.
+* ``show_value`` whether to display julia return value or not, the default value is ‘FALSE‘ if the ‘cmd‘ ends with semicolon and ‘TRUE‘ otherwise.
 #### Examples
 ```{r}
-
 ## julia_setup is quite time consuming
 julia_command("a = sqrt(2);")
+```
