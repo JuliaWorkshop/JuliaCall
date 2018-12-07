@@ -1,16 +1,15 @@
 
-julia_source Source a julia source file.
+``julia_source``: Source a julia source file.
 
 #### Description
 
-julia_source sources a julia source file.
+``julia_source`` sources a julia source file.
 
 #### Usage
 <pre><code>
-
 julia_source(file_name)
-
 </code></pre>
+
 #### Arguments
 
-file_name the name of julia source file.
+* ``file_name``: the name of julia source file.
