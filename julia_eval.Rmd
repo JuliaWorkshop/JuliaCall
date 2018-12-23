@@ -1,4 +1,12 @@
-``julia_eval`` Evaluate string commands in julia and get the result.
+---
+title: "``julia_eval`` Evaluate string commands in julia and get the result."
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(JuliaCall)
+```
 
 #### Description
 
