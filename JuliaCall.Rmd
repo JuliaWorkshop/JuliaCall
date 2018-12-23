@@ -1,4 +1,14 @@
-JuliaCall JuliaCall: Seamless Integration Between R and Julia.
+---
+title: "JuliaCall "
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(JuliaCall)
+```
+
+JuliaCall: Seamless Integration Between R and Julia.
 
 #### Description
 
