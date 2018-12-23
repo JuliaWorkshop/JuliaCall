@@ -1,3 +1,12 @@
+---
+title: "plotsViewer"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(JuliaCall)
+```
 
 plotsViewer Julia plots viewer in R.
 
@@ -7,5 +16,5 @@ plotsViewer lets you view julia plots in R.
 
 #### Usage
 <pre><code>
-
 plotsViewer()
+</code></pre>
