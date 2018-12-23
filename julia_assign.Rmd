@@ -1,3 +1,12 @@
+---
+title: "JuliaCall "
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(JuliaCall)
+```
 
 ``julia_assign`` Assign a value to a name in julia.
 
