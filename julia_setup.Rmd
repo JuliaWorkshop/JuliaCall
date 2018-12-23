@@ -1,5 +1,22 @@
+---
 
-julia_setup Do initial setup for the JuliaCall package.
+title: "``julia_setup``"
+
+output: html_document
+
+---
+
+
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+
+library(JuliaCall)
+
+```
+
+ Do initial setup for the JuliaCall package.
 
 #### Description
 
