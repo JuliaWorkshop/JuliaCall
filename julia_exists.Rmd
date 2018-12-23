@@ -1,3 +1,13 @@
+---
+title: "``julia_exists``"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(JuliaCall)
+```
+
 ``julia_exists`` Check whether a julia object with the given name exists or not.
 
 #### Description
